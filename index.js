@@ -13,6 +13,12 @@ function clickLike2(){
 }
 btnLike2.addEventListener("click",clickLike2)
 
+function clickLdisike1(){
+  let totaldisLikes = parseInt(countdisLike1.value) + 1
+  countdisLike1.textContent = totaldisLikes.toString()
+}
+btndisLike1.addEventListener("click",clickdisLike1)
+
 const submit = document.getElementById("submit")
 
 const comment = document.getElementById("comment")
