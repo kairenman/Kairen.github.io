@@ -40,7 +40,7 @@ function submitComment(){
 
 commentbox.textContent += comment.value.toString() + "\n"
 
-comment.value=""
+comment.value="";
 
 }
 
